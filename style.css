@@ -1,7 +1,7 @@
 @media only screen and (min-width: 720px) {
   body {
     font-size: 22px;
-    background: url(music-background.jpeg) no-repeat center center fixed;
+    background: url(music-background.jpg) no-repeat center center fixed;
     background-size: cover;
     font-family: 'Amiri', serif;
   }
