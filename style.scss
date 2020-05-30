@@ -1,0 +1,73 @@
+$primaryColor : white;
+
+@media only screen and (min-width: 720px) {
+    body {
+    font-size: 22px;
+    background: url(music-background.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Amiri', serif;
+    }
+    #mainBackground {
+        background: linear-gradient(135deg, rgba(187, 8, 76, 0.95) 35%, rgba(0,0,0,0.95) 100%);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        min-height: 80vh;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    body {
+        font-size: 14px;
+        font-family: 'Amiri', serif;
+        background: linear-gradient(135deg, rgba(187, 8, 76, 0.95) 35%, rgba(0,0,0,0.95) 100%) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #mainBackground {
+height: 100%;
+    }
+}
+
+hr.solid {
+    border-top: 3px solid $primaryColor;
+}
+
+.navItems {
+    color: $primaryColor;
+    &:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+    color: $primaryColor;
+    }
+}
+
+.navActive {
+    color: black;
+}
+
+.listColor {
+    a {
+        color: $primaryColor;
+        text-decoration: none;
+        &:hover {
+            color:black;
+        }
+    }
+}
+
+
+
+tr {
+    th {
+        font-style: italic;
+    }
+    
+     &:nth-child(even) {
+        color: greenyellow;
+    }
+}
